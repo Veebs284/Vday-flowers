@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Vday-flowers/',
+  base: '/Vday-flowers/', // << correct base
   plugins: [
     vue(),
     vueDevTools(),
